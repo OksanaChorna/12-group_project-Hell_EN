@@ -976,7 +976,14 @@ img {
   bottom: -95px;
   width: 176px;
   height: 137px;
-  background-color: rebeccapurple;
+  background-image: url("/program-section-mobile.c5b0d2df.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .program-img {
+    background-image: url("/program-section-mobile@2x.fda5dc56.png");
+  }
 }
 @media screen and (min-width: 768px) {
   .program-img {
@@ -984,6 +991,12 @@ img {
     bottom: -150px;
     width: 384px;
     height: 280px;
+    background-image: url("/program-section-tablet.bae6bd74.png");
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .program-img {
+    background-image: url("/program-section-tablet@2x.a83c3fcd.png");
   }
 }
 @media screen and (min-width: 1680px) {
@@ -992,31 +1005,41 @@ img {
     bottom: -312px;
     width: 760px;
     height: 502px;
+    background-image: url("/program-section-desktop.055d66b4.png");
+  }
+}
+@media screen and (min-width: 1680px) and (min-device-pixel-ratio: 2), screen and (min-width: 1680px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1680px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 1680px) and (min-resolution: 192dpi), screen and (min-width: 1680px) and (min-resolution: 2dppx) {
+  .program-img {
+    background-image: url("/program-section-desktop@2x.265005a6.png");
   }
 }
 
 .program-advantages {
-  position: absolute;
-  left: 20px;
-  bottom: -230px;
+  position: relative;
   margin: 0 auto;
   width: 280px;
-  height: 718px;
+  height: 230px;
 }
 @media screen and (min-width: 768px) {
   .program-advantages {
-    bottom: -250px;
-    left: 40px;
     width: 688px;
-    height: 455px;
+    height: 253px;
   }
 }
 @media screen and (min-width: 1680px) {
   .program-advantages {
-    bottom: -200px;
-    left: 180px;
     width: 1314px;
-    height: 398px;
+    height: 197px;
+  }
+}
+
+.program-advantages-container {
+  position: absolute;
+  bottom: 39px;
+}
+@media screen and (min-width: 768px) {
+  .program-advantages-container {
+    bottom: 0px;
   }
 }
 
@@ -1033,6 +1056,7 @@ img {
 @media screen and (min-width: 768px) {
   .program-adv-title {
     text-align: center;
+    padding-right: 0;
     font-size: 23px;
   }
 }
@@ -1050,6 +1074,7 @@ img {
   width: 280px;
   height: 638px;
   background-color: #ffffff;
+  box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }
 @media screen and (min-width: 768px) {
   .program-adv-list {
