@@ -516,12 +516,26 @@ img {
   letter-spacing: 0.03em;
   color: #111518;
   margin-bottom: 30px;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: 0.8s ease;
+}
+.hero-title._active {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 @media screen and (max-width: 767px) {
   .hero-title {
     font-size: 20px;
     line-height: 1.35;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: 0.8s ease;
+  }
+  .hero-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 }
 @media screen and (min-width: 768px) {
@@ -529,6 +543,13 @@ img {
     font-size: 26px;
     line-height: 1.307;
     max-width: 280px;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: 0.8s ease;
+  }
+  .hero-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 }
 @media screen and (min-width: 1680px) {
@@ -536,6 +557,13 @@ img {
     font-size: 58px;
     line-height: 1.293;
     max-width: 610px;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: 0.8s ease;
+  }
+  .hero-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 }
 .hero-subtitle {
@@ -545,12 +573,26 @@ img {
   line-height: 1.571;
   letter-spacing: 0.08em;
   color: #b9b9b9;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: 0.8s ease 0.3s;
+}
+.hero-subtitle._active {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 @media screen and (min-width: 1680px) {
   .hero-subtitle {
     font-size: 20px;
     line-height: 1.65;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: 0.8s ease 0.3s;
+  }
+  .hero-subtitle._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 }
 .hero-description {
@@ -561,11 +603,25 @@ img {
   letter-spacing: 0.08em;
   color: #111518;
   margin-bottom: 30px;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: 0.8s ease 0.7s;
+}
+.hero-description._active {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 @media screen and (min-width: 768px) {
   .hero-description {
     max-width: 280px;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: 0.8s ease 0.7s;
+  }
+  .hero-description._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 }
 @media screen and (min-width: 1680px) {
@@ -574,6 +630,13 @@ img {
     line-height: 1.65;
     max-width: 400px;
     margin-bottom: 68px;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: 0.8s ease 0.7s;
+  }
+  .hero-description._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 }
 .hero-balls {
