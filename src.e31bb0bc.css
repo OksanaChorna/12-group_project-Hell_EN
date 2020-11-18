@@ -2311,6 +2311,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  background-position: center center;
 }
 @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .box-registration {
@@ -2556,10 +2557,9 @@ img {
   }
 }
 
-.phone-footer__icon {
-  margin-right: 10px;
+.instagram-footer__icon {
+  transition: transform 0.2s;
 }
-
 @media screen and (min-width: 768px) {
   .instagram-footer__icon {
     margin-left: 48px;
@@ -2569,6 +2569,11 @@ img {
   .instagram-footer__icon {
     margin-left: 40px;
   }
+}
+
+.location-footer__link:hover .instagram-footer__icon,
+.location-footer__link:focus .instagram-footer__icon {
+  transform: scale(1.5);
 }
 
 .footer-phone-text {
@@ -2626,6 +2631,8 @@ img {
 }
 
 .phone-footer__icon {
+  margin-right: 10px;
+  transition: transform 0.2s;
   width: 20px;
   height: 19.21px;
 }
@@ -2645,6 +2652,7 @@ img {
 .location-footer__link:hover .phone-footer__icon,
 .location-footer__link:focus .phone-footer__icon {
   fill: #ff6b09;
+  transform: scale(1.5);
 }
 
 .footer-logo__icon {
