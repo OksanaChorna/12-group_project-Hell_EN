@@ -1,1 +1,0 @@
-{"version":3,"sources":["js/slider.js"],"names":["$","document","ready","slick"],"mappings":";AAAAA,EAAEC,UAAUC,MAAM,WACdF,EAAE,WAAWG","file":"slider.22fdb4a1.js","sourceRoot":"..\\src","sourcesContent":["$(document).ready(function () {\r\n    $('.slider').slick();\r\n});"]}
