@@ -146,7 +146,6 @@
  color: $primary-background-color;
  margin-left: auto;
  margin-right: auto;
- transition: transform .2s;
 
 
  &::placeholder {
@@ -185,7 +184,6 @@
 
 .footer-form__input:hover,
 .footer-form__input:focus {
-  transform: scale(1.5);
   border: 1px solid $accent-color;
   cursor: pointer;
 }
@@ -400,6 +398,6 @@
   line-height: 2;
 }
 
-
+                        
 
 
