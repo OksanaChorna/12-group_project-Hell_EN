@@ -64,6 +64,7 @@
   font-size: 12px;
   line-height: 1.67;
   color: $secondary-description-color;
+  overflow: hidden;
 
   @media screen and (min-width: 1680px) {
     font-size: 20px;
