@@ -79,15 +79,9 @@
 
   @media screen and (min-width: 768px) {
     padding-top: 30px;
-    padding-right: 20px;
-    padding-bottom: 31px;
-    padding-left: 27px;
-
-    @media screen and (min-width: 768px) {
-     padding-top: 30px;
-     padding-right: 50px;
-     padding-bottom: 30px;
-     padding-left: 79px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 79px;
   }
 
   @media screen and (min-width: 1680px) {
@@ -128,61 +122,60 @@
 }
 
 .warranty-list-item {
-    display: flex;
-    border-left: 1px dashed transparent;
-    padding-left: 20px;
+  display: flex;
+  border-left: 1px dashed transparent;
+  padding-left: 20px;
 
-    @media screen and (min-width: 768px) {
-        padding-left: 24px;
-    }
-    
-    @media screen and (min-width: 1680px) {
-        padding-left: 30px;
-    }
+  @media screen and (min-width: 768px) {
+    padding-left: 24px;
+  }
+
+  @media screen and (min-width: 1680px) {
+    padding-left: 30px;
+  }
 }
 
 .warranty-list-item:not(:last-child) {
-    border-left: 1px dashed $primary-description-color;
-    padding-bottom: 23px;
+  border-left: 1px dashed $primary-description-color;
+  padding-bottom: 23px;
 
-    @media screen and (min-width: 768px) {
-        padding-bottom: 20px;
-    }
+  @media screen and (min-width: 768px) {
+    padding-bottom: 20px;
+  }
 }
 
 .warranty-icon-conteiner {
-    position: absolute;
+  position: absolute;
 
-    width: 15px;
-    height: 20px;
+  width: 15px;
+  height: 20px;
 
-    transform: translate(-180%, -15%);
+  transform: translate(-180%, -15%);
 
-    background-color:$secondary-background-color;
-    padding-top: 5px;
-    padding-bottom: 25px;
-    
-    @media screen and (min-width: 768px) {
-        
-        transform: translate(-205%, -15%);
-    }
-    
-    @media screen and (min-width: 1680px) {
-        width: 22px;
-        height: 30px;
+  background-color: $secondary-background-color;
+  padding-top: 5px;
+  padding-bottom: 25px;
 
-        transform: translate(-180%, -16%);
-        
-        padding-top: 6px;
-        padding-bottom: 36px;
-    }
+  @media screen and (min-width: 768px) {
+    transform: translate(-205%, -15%);
+  }
+
+  @media screen and (min-width: 1680px) {
+    width: 22px;
+    height: 30px;
+
+    transform: translate(-180%, -16%);
+
+    padding-top: 6px;
+    padding-bottom: 36px;
+  }
 }
 
 @media screen and (max-width: 1679px) {
-    .warranty-list-item-icon-2 {
-        display: none;
-    }
+  .warranty-list-item-icon-2 {
+    display: none;
   }
+}
 
 @media screen and (min-width: 1680px) {
   .warranty-list-item-icon-2 {
@@ -191,9 +184,9 @@
 }
 
 @media screen and (max-width: 1679px) {
-    .warranty-list-item-icon-1 {
-        display: block;
-    }
+  .warranty-list-item-icon-1 {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1680px) {
