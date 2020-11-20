@@ -351,7 +351,7 @@
 }
 
 @media screen and (min-width: 1680px) {
-  .nav-item:not(:last-child) {
+  .nav-link:not(:last-child) {
     margin-right: 40px;
   }
 }
@@ -463,4 +463,9 @@
   .header-btn-second {
     display: none;
   }
+}
+
+.logo-svg {
+  animation-duration: 1000ms;
+  animation-iteration-count: 3;
 }
