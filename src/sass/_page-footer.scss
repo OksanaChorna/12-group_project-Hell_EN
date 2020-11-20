@@ -81,6 +81,7 @@
 
 .footer-form {
   padding: 0;
+ 
 }
 
 .footer-form__title  {
@@ -143,10 +144,10 @@
  padding-left: 28px;
  background-color:transparent;
  color: $primary-background-color;
- border: 1px solid $primary-background-color;
  margin-left: auto;
  margin-right: auto;
- color: $primary-background-color;
+ transition: transform .2s;
+
 
  &::placeholder {
    color:$primary-background-color;
@@ -184,6 +185,7 @@
 
 .footer-form__input:hover,
 .footer-form__input:focus {
+  transform: scale(1.5);
   border: 1px solid $accent-color;
   cursor: pointer;
 }
@@ -268,6 +270,7 @@
 }
 
 .instagram-footer__icon {
+  background-image: url('../images/adaptiv/instagram.svg');
   transition: transform .2s;
   @media screen and (min-width:768px) {
     margin-left: 48px;
@@ -396,4 +399,7 @@
   font-size: 14px;
   line-height: 2;
 }
+
+
+
 
